@@ -75,7 +75,6 @@ export default function ToothJourney() {
   const canvasRef  = useRef<HTMLCanvasElement>(null);
 
   const panelRefs = useRef<(HTMLDivElement | null)[]>([]);
-  const stageRefs = useRef<(HTMLDivElement | null)[]>([]);
   const hintRef   = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -185,13 +184,6 @@ export default function ToothJourney() {
 
       key.color.setRGB(s.kR, s.kG, s.kB);
 
-      /* Big stage labels */
-      const stage = prog < 0.32 ? 0 : prog < 0.65 ? 1 : 2;
-      stageRefs.current.forEach((el, i) => {
-        if (!el) return;
-        el.classList.toggle("jy-stage-on", i === stage);
-      });
-
       /* Right panels */
       panelRefs.current.forEach((el, i) => {
         if (!el) return;
@@ -231,7 +223,7 @@ export default function ToothJourney() {
       /* Minimal idle micro-oscillation — just enough to feel alive */
       toothMesh.rotation.x = cur.rotX + Math.sin(tick * 0.6) * 0.004;
       toothMesh.rotation.y = cur.rotY + Math.sin(tick * 0.4) * 0.003;
-      if (baseScale) toothMesh.scale.setScalar(baseScale);
+      if (baseScale) toothMesh.scale.setScalar(baseScale * (window.innerWidth <= 768 ? 0.5 : 1));
       glow.position.set(cur.px + 0.4, cur.py + 0.5, 2);
 
       renderer.render(scene, camera);
@@ -248,17 +240,11 @@ export default function ToothJourney() {
 
   const panels = [
     { stage: "Zahnarzt",    n: "01", title: "Auftrag\neingegangen.",     body: "Sobald ein Arzt einen Fall einreicht, erfasst Cromiw ihn — Materialien, Spezifikationen, Frist — und leitet ihn sofort ans Labor weiter." },
-    { stage: "Zahnarzt",    n: "02", title: "Arzt-\nPortal.",            body: "Überweisende Ärzte haben jederzeit Einblick in jeden Fall. Echtzeit-Updates. Keine Anrufe, kein Raten." },
-    { stage: "Dentallabor", n: "03", title: "Intelligente\nFristen.",    body: "Cromiw berechnet realistische Fristen aus Laborkapazität, Komplexität und Technikerlast — und warnt Sie, bevor etwas schiefgeht." },
-    { stage: "Dentallabor", n: "04", title: "Fall-\nverfolgung.",        body: "Jede Übergabe dokumentiert. Jeder Schritt protokolliert. Ein vollständiger Prüfpfad vom Eingang bis zum Versand — automatisch." },
-    { stage: "Kunde",n: "05", title: "Qualitäts-\nkontrolle.",    body: "Konfigurierbare QA-Prüfpunkte vor dem Versand jedes Falls. Fehler früh erkennen, Befunde dokumentieren, kontinuierlich verbessern." },
-    { stage: "Kunde",n: "06", title: "Versand &\nRechnung.",      body: "Fall freigegeben — Rechnung automatisch versendet. Richtige Positionen, richtiger Arzt, richtiger Preis. Null manuelle Schritte." },
-  ];
-
-  const stages = [
-    { label: "Zahnarzt"     },
-    { label: "Dentallabor"  },
-    { label: "Kunde" },
+    { stage: "Zahnarzt",    n: "02", title: "Labor\nPortal.",            body: "Überweisende Ärzte haben jederzeit Einblick in jeden Fall. Echtzeit-Updates. Keine Anrufe, kein Raten." },
+    { stage: "Dentallabor", n: "03", title: "Verfolgung\nvon jedem Fall.",    body: "Cromiw berechnet realistische Fristen aus Laborkapazität, Komplexität und Technikerlast — und warnt Sie, bevor etwas schiefgeht." },
+    { stage: "Dentallabor", n: "04", title: "Alles\nim Blick.",        body: "Jede Übergabe dokumentiert. Jeder Schritt protokolliert. Ein vollständiger Prüfpfad vom Eingang bis zum Versand — automatisch." },
+    { stage: "Kunde",n: "05", title: "Püktlich\nLiefern.",    body: "Konfigurierbare QA-Prüfpunkte vor dem Versand jedes Falls. Fehler früh erkennen, Befunde dokumentieren, kontinuierlich verbessern." },
+    { stage: "Kunde",n: "06", title: "das ist\nCROMIW",      body: "Fall freigegeben — Rechnung automatisch versendet. Richtige Positionen, richtiger Arzt, richtiger Preis. Null manuelle Schritte." },
   ];
 
   return (
@@ -267,17 +253,6 @@ export default function ToothJourney() {
 
         {/* Three.js canvas */}
         <canvas ref={canvasRef} className="jy-canvas" />
-
-        {/* Big stage labels */}
-        {stages.map((s, i) => (
-          <div
-            key={i}
-            ref={(el) => { stageRefs.current[i] = el; }}
-            className={`jy-stage${i === 0 ? " jy-stage-on" : ""}`}
-          >
-            {s.label}
-          </div>
-        ))}
 
         {/* Feature panels — title only, no description */}
         {panels.map((p, i) => (

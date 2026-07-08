@@ -4,11 +4,11 @@
 :root {
   --cream:  #EDE8DD;
   --navy:   #1A1F36;
-  --red:    #C03A12;
+  --red:    #911212;
   --muted:  #87847E;
   --border: rgba(26, 31, 54, 0.1);
   --serif:  var(--font-cormorant), "Cormorant Garamond", serif;
-  --sans:   var(--font-inter), "Inter", sans-serif;
+  --sans:   var(--font-pjs), "Plus Jakarta Sans", sans-serif;
   --mono:   "Geist Mono", ui-monospace, monospace;
 }
 
@@ -105,10 +105,10 @@ body {
   z-index: 100;
 }
 .nav-brand {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 1.55rem;
-  font-weight: 600;
-  font-style: italic;
+  font-weight: 300;
+  font-style: normal;
   color: var(--red);
   text-decoration: none;
   letter-spacing: 0.02em;
@@ -143,7 +143,7 @@ body {
 .nav-btn {
   font-family: var(--sans);
   font-size: 0.68rem;
-  font-weight: 600;
+  font-weight: 300;
   letter-spacing: 0.12em;
   background: var(--navy);
   color: var(--cream);
@@ -155,6 +155,20 @@ body {
   white-space: nowrap;
 }
 .nav-btn:hover { background: var(--red); }
+.demo-back-btn {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 1rem 2.2rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s, color 0.3s, border-color 0.3s;
+}
+.demo-back-btn:hover { background: #fff; color: var(--navy); }
 
 /* ─── HERO + MONITOR ABOVE-THE-FOLD WRAPPER ─────────────────── */
 .hero-monitor-wrap {
@@ -196,9 +210,9 @@ body {
 }
 .h1-cro,
 .h1-miw {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: clamp(3.6rem, 9.5vw, 10rem);
-  font-weight: 700;
+  font-weight: 300;
   font-style: normal;
   letter-spacing: -0.025em;
   line-height: 0.9;
@@ -270,6 +284,14 @@ body {
   display: flex;
   flex-direction: column;
 }
+.screen-inner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  min-height: 0;
+}
 
 /* ─── BUTTONS ───────────────────────────────────────────────── */
 .btn-solid,
@@ -277,7 +299,7 @@ body {
 .btn-solid-light {
   font-family: var(--sans);
   font-size: 0.72rem;
-  font-weight: 600;
+  font-weight: 300;
   letter-spacing: 0.12em;
   padding: 1.05rem 2.2rem;
   border: none;
@@ -345,10 +367,10 @@ body {
   gap: 2px;
 }
 .a-logo {
-  font-family: var(--serif);
-  font-style: italic;
+  font-family: var(--sans);
+  font-style: normal;
   font-size: 10px;
-  font-weight: 700;
+  font-weight: 300;
   color: #7EC89A;
   letter-spacing: 0.06em;
   margin-bottom: 14px;
@@ -358,7 +380,7 @@ body {
   font-family: var(--sans);
   font-size: 6.5px;
   letter-spacing: 0.12em;
-  color: #3E5C62;
+  color: #073b0a;
   padding: 4px 4px 2px;
 }
 .a-item {
@@ -398,10 +420,10 @@ body {
   flex-shrink: 0;
 }
 .a-page-title {
-  font-family: var(--serif);
-  font-style: italic;
+  font-family: var(--sans);
+  font-style: normal;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 300;
   color: #D9E8DA;
 }
 .a-new-case {
@@ -428,9 +450,9 @@ body {
 }
 .a-stat b {
   display: block;
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 300;
   color: #D9E8DA;
   line-height: 1;
 }
@@ -539,9 +561,9 @@ body {
   color: var(--muted);
 }
 .section-h2 {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: clamp(2.4rem, 5.5vw, 5rem);
-  font-weight: 600;
+  font-weight: 300;
   color: var(--navy);
   line-height: 1.08;
   margin-top: 1rem;
@@ -571,9 +593,9 @@ body {
   margin-bottom: 2.2rem;
 }
 .feat-title {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 1.65rem;
-  font-weight: 600;
+  font-weight: 300;
   color: var(--navy);
   margin-bottom: 1rem;
   line-height: 1.15;
@@ -607,9 +629,9 @@ body {
   width: 3rem;
 }
 .step-content h3 {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 2.1rem;
-  font-weight: 600;
+  font-weight: 300;
   color: var(--navy);
   margin-bottom: 0.8rem;
   line-height: 1.1;
@@ -647,16 +669,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 300;
   color: var(--navy);
   border: 1px solid var(--border);
 }
 .team-name {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 300;
   color: var(--navy);
   margin-bottom: 0.3rem;
 }
@@ -698,9 +720,9 @@ body {
 }
 .price-card-featured .price-name { color: rgba(237, 232, 221, 0.5); }
 .price-amount {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 3.8rem;
-  font-weight: 700;
+  font-weight: 300;
   color: var(--navy);
   line-height: 1;
   margin-bottom: 2.5rem;
@@ -746,10 +768,10 @@ body {
   gap: 3.5rem;
 }
 .cta-text {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: clamp(2.5rem, 7vw, 6.5rem);
-  font-weight: 600;
-  font-style: italic;
+  font-weight: 300;
+  font-style: normal;
   color: var(--cream);
   line-height: 1.05;
   max-width: 800px;
@@ -795,26 +817,26 @@ body {
 
 .jy-fp-n {
   display: block;
-  font-family: 'Fraunces', var(--serif);
+  font-family: var(--sans);
   font-size: 11px;
-  font-weight: 700;
-  font-style: italic;
-  color: #c8a840;
+  font-weight: 300;
+  font-style: normal;
+  color: #ffffff;
   margin-bottom: 9px;
 }
 .jy-fp-rule {
   width: 24px;
   height: 1px;
-  background: #c8a840;
+  background: #ffffff;
   margin-bottom: 16px;
   margin-left: auto;
 }
 .jy-fp-title {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: clamp(32px, 3.8vw, 58px);
-  font-weight: 700;
-  font-style: italic;
-  color: #fff;
+  font-weight: 300;
+  font-style: normal;
+  color: #ffffff;
   line-height: 1.03;
   letter-spacing: -0.5px;
 }
@@ -825,10 +847,10 @@ body {
   left: 60px;
   top: 50%;
   transform: translateY(calc(-50% + 28px));
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: clamp(5rem, 10vw, 11rem);
-  font-weight: 700;
-  font-style: italic;
+  font-weight: 300;
+  font-style: normal;
   color: #fff;
   line-height: 1;
   letter-spacing: -0.03em;
@@ -990,9 +1012,9 @@ body {
 }
 
 .bento-card-heading {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: clamp(2.1rem, 4vw, 3.4rem);
-  font-weight: 700;
+  font-weight: 300;
   color: var(--cream);
   line-height: 0.98;
   letter-spacing: -0.02em;
@@ -1024,9 +1046,9 @@ body {
 }
 
 .bento-card-stat-val {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 2.4rem;
-  font-weight: 700;
+  font-weight: 300;
   color: var(--red);
   line-height: 1;
 }
@@ -1113,15 +1135,15 @@ body {
   display: block;
 }
 .oryzo-h {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: clamp(3.5rem, 6.5vw, 7rem);
-  font-weight: 700;
+  font-weight: 300;
   color: var(--cream);
   line-height: 0.9;
   letter-spacing: -0.025em;
   margin-bottom: 2rem;
 }
-.oryzo-h span:last-child { color: var(--red); font-style: italic; }
+.oryzo-h span:last-child { color: var(--red); font-style: normal; }
 .oryzo-p {
   font-family: var(--sans);
   font-size: 0.9rem;
@@ -1188,9 +1210,9 @@ body {
 }
 .oryzo-stat:last-child { border-right: none; }
 .oryzo-stat-val {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: clamp(2.2rem, 4vw, 3.8rem);
-  font-weight: 700;
+  font-weight: 300;
   color: var(--cream);
   line-height: 1;
 }
@@ -1233,9 +1255,9 @@ body {
   margin-bottom: 1rem;
 }
 .team-section-h2 {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: clamp(2.4rem, 5.5vw, 5rem);
-  font-weight: 600;
+  font-weight: 300;
   color: var(--navy);
   line-height: 1.08;
 }
@@ -1256,9 +1278,9 @@ body {
   border: 1px solid var(--border);
 }
 .team-member-name {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 300;
   color: var(--navy);
   line-height: 1.1;
 }
@@ -1297,9 +1319,9 @@ body {
   margin-bottom: 1rem;
 }
 .contact-h2 {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: clamp(2.4rem, 5.5vw, 5rem);
-  font-weight: 600;
+  font-weight: 300;
   color: var(--cream);
   line-height: 1.08;
   margin-bottom: 1.2rem;
@@ -1325,7 +1347,7 @@ body {
 .contact-label {
   font-family: var(--sans);
   font-size: 0.68rem;
-  font-weight: 600;
+  font-weight: 300;
   letter-spacing: 0.14em;
   color: rgba(237, 232, 221, 0.4);
 }
@@ -1351,7 +1373,7 @@ body {
   margin-top: 0.6rem;
   font-family: var(--sans);
   font-size: 0.72rem;
-  font-weight: 600;
+  font-weight: 300;
   letter-spacing: 0.12em;
   background: var(--cream);
   color: var(--navy);
@@ -1412,10 +1434,10 @@ body {
   gap: 1.2rem;
 }
 .footer-brand {
-  font-family: var(--serif);
-  font-style: italic;
+  font-family: var(--sans);
+  font-style: normal;
   font-size: 1.7rem;
-  font-weight: 600;
+  font-weight: 300;
   color: var(--red);
   display: block;
 }
@@ -1478,20 +1500,19 @@ body {
   .hero { padding: 2rem 1.2rem 0; }
   .hero-tag { font-size: 0.62rem; }
 
-  /* Monitor — hide sidebar + efficiency, simplify */
-  .monitor-flat-scene { padding: 48px 1.2rem 48px; }
-  .monitor-flat-unit { width: min(820px, 93vw); }
-  .a-sidebar { display: none; }
-  .a-eff { display: none; }
-  .a-stats { grid-template-columns: 1fr 1fr; }
-  .a-stat b { font-size: 11px; }
-  .a-stat span { font-size: 4px; letter-spacing: 0.08em; }
-  .a-stat small { font-size: 5px; }
-  .a-th { grid-template-columns: 2fr 1fr 1fr; }
-  .a-tr { grid-template-columns: 2fr 1fr 1fr; }
-  /* hide Doctor column — too cramped */
-  .a-th span:nth-child(2),
-  .a-tr span:nth-child(2) { display: none; }
+  /* Monitor — scale content down proportionally, keep desktop layout intact */
+  .monitor-flat-scene { padding: 24px 0.5rem 24px; }
+  .monitor-flat-unit { width: min(820px, 97vw); }
+  .screen-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: scale(0.9);
+    width: calc(100% / 0.9);
+    height: calc(100% / 0.9);
+    flex: none;
+  }
 
   /* Tooth Journey — stage labels: centre them */
   .jy-stage {
@@ -1546,8 +1567,32 @@ body {
   .footer-legal { flex-wrap: wrap; gap: 1rem; }
 }
 
+/* ── Mid-size phone (≤ 540px) ────────────────────────────────── */
+@media (max-width: 540px) {
+  .screen-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: scale(0.63);
+    width: calc(100% / 0.63);
+    height: calc(100% / 0.63);
+    flex: none;
+  }
+}
+
 /* ── Small phone (≤ 390px) ────────────────────────────────────── */
 @media (max-width: 390px) {
+  .screen-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: scale(0.45);
+    width: calc(100% / 0.45);
+    height: calc(100% / 0.45);
+    flex: none;
+  }
   .nav-btn {
     font-size: 0.5rem;
     padding: 0.55rem 0.65rem;

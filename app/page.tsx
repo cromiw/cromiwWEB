@@ -170,7 +170,10 @@ export default function Home() {
         <header className="nav">
           <a href="/" className="nav-brand">Cromiw</a>
           <nav className="nav-menu" aria-label="Main navigation" />
-          <a href="#vertrieb" className="nav-btn">VERTRIEB KONTAKTIEREN</a>
+          <div style={{ display: "flex", gap: "0.6rem", alignItems: "center" }}>
+            <a href="/demo" className="nav-btn">DEMO</a>
+            <a href="#vertrieb" className="nav-btn">VERTRIEB KONTAKTIEREN</a>
+          </div>
         </header>
 
         {/* ── HERO + MONITOR (above the fold) ── */}
@@ -189,6 +192,7 @@ export default function Home() {
             <div className="monitor-flat-unit">
             <div className="monitor-flat-wrap">
               <div className="monitor-flat-screen">
+                <div className="screen-inner">
                 <div className="b-chrome">
                   <span className="dot" style={{ background: "#FF5F57" }} />
                   <span className="dot" style={{ background: "#FFBD2E" }} />
@@ -258,6 +262,7 @@ export default function Home() {
                     </div>
                   </main>
                 </div>
+                </div>{/* end screen-inner */}
               </div>
             </div>
             </div>
@@ -272,8 +277,8 @@ export default function Home() {
         {(() => {
           const phases = [
             {
-              eyebrow: "LERN CROMIW KENNEN",
-              heading: "Ein OS.\nFür jedes\nLabor.",
+              eyebrow: "WAS IST CROMIW",
+              heading: "Ein Portal.\nFür jedes\nLabor.",
               sub: "Entwickelt für die Art, wie Dentallabore wirklich arbeiten — schnell, präzise und immer pünktlich.",
             },
             {
@@ -282,14 +287,14 @@ export default function Home() {
               sub: "Echtzeit-Status für jede Restauration. Keine Anrufe, kein Raten, keine verlorenen Aufträge.",
             },
             {
-              eyebrow: "AUTOMATISIERUNG",
-              heading: "Workflows\neinfach\nlaufen lassen.",
-              sub: "Definieren Sie Ihren Prozess einmalig. Cromiw übernimmt Zuweisung, Erinnerungen und Eskalationen automatisch.",
+              eyebrow: "DEMO ANSCHAUEN",
+              heading: "DEMO\nVertrieb\nErgebniss.",
+              sub: "Schauen sie unsere Demo an und informieren sie sich über CROMIW.",
             },
             {
               eyebrow: "ERGEBNISSE",
               heading: "Pünktlich\nliefern.\nJedes Mal.",
-              sub: "Labore auf Cromiw erreichen im ersten Monat 98 % Pünktlichkeit.",
+              sub: "Jeden Auftrag ohne Stress Liefern",
             },
           ];
           return (
@@ -397,19 +402,15 @@ export default function Home() {
             <div className="footer-col">
               <span className="footer-col-title">Produkt</span>
               <a href="#">Übersicht</a>
-              <a href="#">Änderungsprotokoll</a>
             </div>
             <div className="footer-col">
               <span className="footer-col-title">Unternehmen</span>
-              <a href="#">Über uns</a>
-              <a href="#">Blog</a>
-              <a href="#">Karriere</a>
+              <a href="#">DEMO</a>
             </div>
             <div className="footer-col">
               <span className="footer-col-title">Kontakt</span>
-              <a href="mailto:hello@cromiw.com">hello@cromiw.com</a>
+              <a href="mailto:hello@cromiw.com">sa@cromiw.com</a>
               <a href="#">Instagram</a>
-              <a href="#">LinkedIn</a>
               <a href="#" className="footer-cta-link">Zugang anfordern →</a>
             </div>
           </div>
