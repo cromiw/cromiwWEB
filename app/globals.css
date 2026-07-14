@@ -1272,10 +1272,12 @@ body {
   gap: 1.6rem;
 }
 .team-photo-box {
+  position: relative;
   width: 100%;
   aspect-ratio: 3 / 4;
   background: rgba(26, 31, 54, 0.05);
-  border: 1px solid var(--border);
+  border: 5px solid var(--navy);
+  overflow: hidden;
 }
 .team-member-name {
   font-family: var(--sans);

@@ -42,16 +42,16 @@
       "source_file": "eslint.config.mjs",
       "source_location": "L1",
       "id": "eslint_config_mjs",
-      "community": 4,
+      "community": 5,
       "norm_label": "eslint.config.mjs"
     },
     {
       "label": "next-env.d.ts",
       "file_type": "code",
-      "source_file": "next-env.d.ts",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\next-env.d.ts",
       "source_location": "L1",
-      "id": "next_env_d_ts",
-      "community": 5,
+      "id": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_next_env_d_ts",
+      "community": 6,
       "norm_label": "next-env.d.ts"
     },
     {
@@ -60,7 +60,7 @@
       "source_file": "next.config.ts",
       "source_location": "L1",
       "id": "next_config_ts",
-      "community": 6,
+      "community": 7,
       "norm_label": "next.config.ts"
     },
     {
@@ -69,34 +69,187 @@
       "source_file": "postcss.config.mjs",
       "source_location": "L1",
       "id": "postcss_config_mjs",
-      "community": 7,
+      "community": 8,
       "norm_label": "postcss.config.mjs"
     },
     {
       "label": "layout.tsx",
       "file_type": "code",
-      "source_file": "app\\layout.tsx",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\layout.tsx",
       "source_location": "L1",
-      "id": "app_layout_tsx",
-      "community": 2,
+      "id": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_layout_tsx",
+      "community": 3,
       "norm_label": "layout.tsx"
     },
     {
       "label": "RootLayout()",
       "file_type": "code",
-      "source_file": "app\\layout.tsx",
-      "source_location": "L20",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\layout.tsx",
+      "source_location": "L29",
       "id": "layout_rootlayout",
-      "community": 2,
+      "community": 3,
       "norm_label": "rootlayout()"
     },
     {
       "label": "page.tsx",
       "file_type": "code",
-      "source_file": "app\\page.tsx",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\page.tsx",
       "source_location": "L1",
-      "id": "app_page_tsx",
-      "community": 8,
+      "id": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_page_tsx",
+      "community": 0,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "onMove()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\demo\\page.tsx",
+      "source_location": "L13",
+      "id": "page_onmove",
+      "community": 0,
+      "norm_label": "onmove()"
+    },
+    {
+      "label": "tick()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\demo\\page.tsx",
+      "source_location": "L14",
+      "id": "page_tick",
+      "community": 0,
+      "norm_label": "tick()"
+    },
+    {
+      "label": "on()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\page.tsx",
+      "source_location": "L75",
+      "id": "page_on",
+      "community": 0,
+      "norm_label": "on()"
+    },
+    {
+      "label": "off()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\page.tsx",
+      "source_location": "L76",
+      "id": "page_off",
+      "community": 0,
+      "norm_label": "off()"
+    },
+    {
+      "label": "onScroll()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\page.tsx",
+      "source_location": "L86",
+      "id": "page_onscroll",
+      "community": 0,
+      "norm_label": "onscroll()"
+    },
+    {
+      "label": "ticker()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\page.tsx",
+      "source_location": "L95",
+      "id": "page_ticker",
+      "community": 0,
+      "norm_label": "ticker()"
+    },
+    {
+      "label": "LogoScene.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\components\\LogoScene.tsx",
+      "source_location": "L1",
+      "id": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_components_logoscene_tsx",
+      "community": 9,
+      "norm_label": "logoscene.tsx"
+    },
+    {
+      "label": "ToothJourney.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\components\\ToothJourney.tsx",
+      "source_location": "L1",
+      "id": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_components_toothjourney_tsx",
+      "community": 2,
+      "norm_label": "toothjourney.tsx"
+    },
+    {
+      "label": "lerp()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\components\\ToothJourney.tsx",
+      "source_location": "L17",
+      "id": "toothjourney_lerp",
+      "community": 2,
+      "norm_label": "lerp()"
+    },
+    {
+      "label": "ease()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\components\\ToothJourney.tsx",
+      "source_location": "L18",
+      "id": "toothjourney_ease",
+      "community": 2,
+      "norm_label": "ease()"
+    },
+    {
+      "label": "clamp()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\components\\ToothJourney.tsx",
+      "source_location": "L19",
+      "id": "toothjourney_clamp",
+      "community": 2,
+      "norm_label": "clamp()"
+    },
+    {
+      "label": "sample()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\components\\ToothJourney.tsx",
+      "source_location": "L21",
+      "id": "toothjourney_sample",
+      "community": 2,
+      "norm_label": "sample()"
+    },
+    {
+      "label": "parseSTL()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\components\\ToothJourney.tsx",
+      "source_location": "L41",
+      "id": "toothjourney_parsestl",
+      "community": 2,
+      "norm_label": "parsestl()"
+    },
+    {
+      "label": "ToothJourney()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\components\\ToothJourney.tsx",
+      "source_location": "L72",
+      "id": "toothjourney_toothjourney",
+      "community": 2,
+      "norm_label": "toothjourney()"
+    },
+    {
+      "label": "ToothScene.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\components\\ToothScene.tsx",
+      "source_location": "L1",
+      "id": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_components_toothscene_tsx",
+      "community": 4,
+      "norm_label": "toothscene.tsx"
+    },
+    {
+      "label": "ToothScene()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\components\\ToothScene.tsx",
+      "source_location": "L11",
+      "id": "toothscene_toothscene",
+      "community": 4,
+      "norm_label": "toothscene()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\demo\\page.tsx",
+      "source_location": "L1",
+      "id": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_demo_page_tsx",
+      "community": 0,
       "norm_label": "page.tsx"
     },
     {
@@ -108,9 +261,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_nextjs_agent_rules",
       "community": 1,
-      "norm_label": "next.js agent rules"
+      "norm_label": "next.js agent rules",
+      "id": "agents_nextjs_agent_rules"
     },
     {
       "label": "Graphify Knowledge Graph Config",
@@ -121,9 +274,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_graphify_config",
-      "community": 9,
-      "norm_label": "graphify knowledge graph config"
+      "community": 10,
+      "norm_label": "graphify knowledge graph config",
+      "id": "claude_graphify_config"
     },
     {
       "label": "cromiwOS Frontend Project",
@@ -134,9 +287,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_cromiw_frontend",
-      "community": 0,
-      "norm_label": "cromiwos frontend project"
+      "community": 1,
+      "norm_label": "cromiwos frontend project",
+      "id": "readme_cromiw_frontend"
     },
     {
       "label": "Next.js Framework",
@@ -147,9 +300,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_nextjs_framework",
       "community": 1,
-      "norm_label": "next.js framework"
+      "norm_label": "next.js framework",
+      "id": "readme_nextjs_framework"
     },
     {
       "label": "Vercel Deployment Platform",
@@ -160,9 +313,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_vercel_platform",
-      "community": 3,
-      "norm_label": "vercel deployment platform"
+      "community": 1,
+      "norm_label": "vercel deployment platform",
+      "id": "readme_vercel_platform"
     },
     {
       "label": "Geist Font Family",
@@ -173,9 +326,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_geist_font",
-      "community": 0,
-      "norm_label": "geist font family"
+      "community": 1,
+      "norm_label": "geist font family",
+      "id": "readme_geist_font"
     },
     {
       "label": "next/font Font Optimization",
@@ -186,22 +339,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_next_font",
-      "community": 0,
-      "norm_label": "next/font font optimization"
-    },
-    {
-      "label": "app/page.tsx Entry Point",
-      "file_type": "code",
-      "source_file": "README.md",
-      "source_location": "19",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_app_page_tsx",
-      "community": 0,
-      "norm_label": "app/page.tsx entry point"
+      "community": 1,
+      "norm_label": "next/font font optimization",
+      "id": "readme_next_font"
     },
     {
       "label": "Next.js Wordmark Logo SVG",
@@ -212,9 +352,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "svg_next_logo",
       "community": 1,
-      "norm_label": "next.js wordmark logo svg"
+      "norm_label": "next.js wordmark logo svg",
+      "id": "svg_next_logo"
     },
     {
       "label": "Vercel Triangle Logo SVG",
@@ -225,9 +365,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "svg_vercel_logo",
-      "community": 3,
-      "norm_label": "vercel triangle logo svg"
+      "community": 1,
+      "norm_label": "vercel triangle logo svg",
+      "id": "svg_vercel_logo"
     },
     {
       "label": "File/Document SVG Icon",
@@ -238,9 +378,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "svg_file_icon",
-      "community": 10,
-      "norm_label": "file/document svg icon"
+      "community": 11,
+      "norm_label": "file/document svg icon",
+      "id": "svg_file_icon"
     },
     {
       "label": "Globe/World SVG Icon",
@@ -251,9 +391,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "svg_globe_icon",
-      "community": 11,
-      "norm_label": "globe/world svg icon"
+      "community": 12,
+      "norm_label": "globe/world svg icon",
+      "id": "svg_globe_icon"
     },
     {
       "label": "Browser Window SVG Icon",
@@ -264,22 +404,238 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "svg_window_icon",
-      "community": 12,
-      "norm_label": "browser window svg icon"
+      "community": 13,
+      "norm_label": "browser window svg icon",
+      "id": "svg_window_icon"
     }
   ],
   "links": [
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "app\\layout.tsx",
-      "source_location": "L20",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\layout.tsx",
+      "source_location": "L29",
       "weight": 1.0,
-      "_src": "app_layout_tsx",
+      "_src": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_layout_tsx",
       "_tgt": "layout_rootlayout",
-      "source": "app_layout_tsx",
+      "source": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_layout_tsx",
       "target": "layout_rootlayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\page.tsx",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_src": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_page_tsx",
+      "_tgt": "page_onmove",
+      "source": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_page_tsx",
+      "target": "page_onmove",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\page.tsx",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_src": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_page_tsx",
+      "_tgt": "page_tick",
+      "source": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_page_tsx",
+      "target": "page_tick",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\page.tsx",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_src": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_page_tsx",
+      "_tgt": "page_on",
+      "source": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_page_tsx",
+      "target": "page_on",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\page.tsx",
+      "source_location": "L76",
+      "weight": 1.0,
+      "_src": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_page_tsx",
+      "_tgt": "page_off",
+      "source": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_page_tsx",
+      "target": "page_off",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\page.tsx",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_src": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_page_tsx",
+      "_tgt": "page_onscroll",
+      "source": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_page_tsx",
+      "target": "page_onscroll",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\page.tsx",
+      "source_location": "L95",
+      "weight": 1.0,
+      "_src": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_page_tsx",
+      "_tgt": "page_ticker",
+      "source": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_page_tsx",
+      "target": "page_ticker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\demo\\page.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_src": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_demo_page_tsx",
+      "_tgt": "page_onmove",
+      "source": "page_onmove",
+      "target": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_demo_page_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\demo\\page.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_demo_page_tsx",
+      "_tgt": "page_tick",
+      "source": "page_tick",
+      "target": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_demo_page_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\components\\ToothJourney.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_src": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_components_toothjourney_tsx",
+      "_tgt": "toothjourney_lerp",
+      "source": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_components_toothjourney_tsx",
+      "target": "toothjourney_lerp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\components\\ToothJourney.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_src": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_components_toothjourney_tsx",
+      "_tgt": "toothjourney_ease",
+      "source": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_components_toothjourney_tsx",
+      "target": "toothjourney_ease",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\components\\ToothJourney.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_src": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_components_toothjourney_tsx",
+      "_tgt": "toothjourney_clamp",
+      "source": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_components_toothjourney_tsx",
+      "target": "toothjourney_clamp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\components\\ToothJourney.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_src": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_components_toothjourney_tsx",
+      "_tgt": "toothjourney_sample",
+      "source": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_components_toothjourney_tsx",
+      "target": "toothjourney_sample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\components\\ToothJourney.tsx",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_src": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_components_toothjourney_tsx",
+      "_tgt": "toothjourney_parsestl",
+      "source": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_components_toothjourney_tsx",
+      "target": "toothjourney_parsestl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\components\\ToothJourney.tsx",
+      "source_location": "L72",
+      "weight": 1.0,
+      "_src": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_components_toothjourney_tsx",
+      "_tgt": "toothjourney_toothjourney",
+      "source": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_components_toothjourney_tsx",
+      "target": "toothjourney_toothjourney",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\components\\ToothJourney.tsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_src": "toothjourney_sample",
+      "_tgt": "toothjourney_lerp",
+      "source": "toothjourney_lerp",
+      "target": "toothjourney_sample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\components\\ToothJourney.tsx",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_src": "toothjourney_sample",
+      "_tgt": "toothjourney_ease",
+      "source": "toothjourney_ease",
+      "target": "toothjourney_sample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\components\\ToothJourney.tsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_src": "toothjourney_sample",
+      "_tgt": "toothjourney_clamp",
+      "source": "toothjourney_clamp",
+      "target": "toothjourney_sample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Sauzhur\\Documents\\CROMIW PROJECT\\cromiwOS frontend\\app\\components\\ToothScene.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_src": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_components_toothscene_tsx",
+      "_tgt": "toothscene_toothscene",
+      "source": "c_users_sauzhur_documents_cromiw_project_cromiwos_frontend_app_components_toothscene_tsx",
+      "target": "toothscene_toothscene",
       "confidence_score": 1.0
     },
     {
@@ -343,26 +699,14 @@
       "target": "readme_geist_font"
     },
     {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "19",
-      "weight": 1.0,
-      "_src": "readme_cromiw_frontend",
-      "_tgt": "readme_app_page_tsx",
-      "source": "readme_cromiw_frontend",
-      "target": "readme_app_page_tsx"
-    },
-    {
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.9,
       "source_file": "public/next.svg",
       "source_location": null,
       "weight": 0.9,
-      "_src": "svg_next_logo",
-      "_tgt": "readme_nextjs_framework",
+      "_src": "readme_nextjs_framework",
+      "_tgt": "svg_next_logo",
       "source": "readme_nextjs_framework",
       "target": "svg_next_logo"
     },
@@ -373,8 +717,8 @@
       "source_file": "public/vercel.svg",
       "source_location": null,
       "weight": 0.9,
-      "_src": "svg_vercel_logo",
-      "_tgt": "readme_vercel_platform",
+      "_src": "readme_vercel_platform",
+      "_tgt": "svg_vercel_logo",
       "source": "readme_vercel_platform",
       "target": "svg_vercel_logo"
     },
@@ -385,8 +729,8 @@
       "source_file": "README.md",
       "source_location": "21",
       "weight": 1.0,
-      "_src": "readme_next_font",
-      "_tgt": "readme_geist_font",
+      "_src": "readme_geist_font",
+      "_tgt": "readme_next_font",
       "source": "readme_geist_font",
       "target": "readme_next_font"
     }

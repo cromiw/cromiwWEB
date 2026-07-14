@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import LogoScene, { type LogoSceneHandle } from "./components/LogoScene";
@@ -350,12 +351,20 @@ export default function Home() {
             </div>
             <div className="team-members">
               {[
-                { name: "Sanzhar", role: "Founder & CEO" },
-                { name: "Kaito",   role: "Co-Founder & CTO" },
-                { name: "Paul",    role: "Co-Founder & CRO" },
+                { name: "Sanzhar", role: "Founder & CEO", photo: "/team/sanzhar.jpg" },
+                { name: "Kaito",   role: "Co-Founder & CTO", photo: "/team/kaito.jpg" },
+                { name: "Paul",    role: "Co-Founder & CRO", photo: "/team/paul.jpg" },
               ].map((m) => (
                 <div className="team-member" key={m.name}>
-                  <div className="team-photo-box" />
+                  <div className="team-photo-box">
+                    <Image
+                      src={m.photo}
+                      alt={m.name}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      style={{ objectFit: "cover" }}
+                    />
+                  </div>
                   <div>
                     <div className="team-member-name">{m.name}</div>
                     <div className="team-member-role">{m.role}</div>
