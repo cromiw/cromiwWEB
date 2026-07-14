@@ -128,6 +128,8 @@ export default function ToothJourney() {
       clearcoat: 0.75,
       clearcoatRoughness: 0.07,
       ior: 1.5,
+      transparent: true,
+      opacity: 0,
     });
 
     /* ── Placeholder sphere ────────────────────────────── */
@@ -164,6 +166,11 @@ export default function ToothJourney() {
     let cur    = { px: 0.2, py: 1.6, rotX: -0.12, rotY: 0.2 };
     let target = { px: 0.2, py: 1.6, rotX: -0.12, rotY: 0.2 };
 
+    /* Tooth fades in only once the section is fully entered/pinned —
+       invisible while it's still scrolling up from behind the section above. */
+    let curOpacity    = 0;
+    let targetOpacity = 0;
+
     /* ── Scroll ───────────────────────────────────────── */
     let prog = 0;
 
@@ -172,6 +179,16 @@ export default function ToothJourney() {
       const scrolled = -rect.top;
       const total    = rect.height - window.innerHeight;
       prog = clamp(scrolled / total, 0, 1);
+
+      /* 0 while the sticky panel is still rising into view from below,
+         1 once its top has reached the viewport top (fully entered/pinned).
+         Stay fully invisible through the first half of that rise — the tooth
+         should only start revealing once the section above is nearly/fully
+         scrolled out of view, not partway through. */
+      const entered   = 1 - clamp(rect.top / window.innerHeight, 0, 1);
+      const revealFrom = 0.6;
+      const reveal = clamp((entered - revealFrom) / (1 - revealFrom), 0, 1);
+      targetOpacity = ease(reveal);
 
       if (prog > 0.04) hintRef.current?.classList.add("jy-hint-off");
       else             hintRef.current?.classList.remove("jy-hint-off");
@@ -217,6 +234,8 @@ export default function ToothJourney() {
       cur.py   += (target.py   - cur.py)   * 0.13;
       cur.rotX += (target.rotX - cur.rotX) * 0.13;
       cur.rotY += (target.rotY - cur.rotY) * 0.13;
+      curOpacity += (targetOpacity - curOpacity) * 0.13;
+      mat.opacity = curOpacity;
 
       toothMesh.position.x = cur.px;
       toothMesh.position.y = cur.py;

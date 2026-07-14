@@ -1105,6 +1105,7 @@ body {
   justify-content: center;
   padding: 3.5rem 3.5rem 7rem;
   margin: 2.5rem;
+  margin-top: calc(2.5rem + 64px); /* clear the fixed 64px nav bar (z-index: 100) above it */
   border-radius: 28px;
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(20px);
